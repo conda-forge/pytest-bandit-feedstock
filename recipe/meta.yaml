@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
@@ -28,6 +28,9 @@ requirements:
 test:
   commands:
     - "py.test --traceconfig | grep pytest-bandit-{{version}}"
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/Wanderu/pytest-bandit
