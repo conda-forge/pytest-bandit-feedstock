@@ -27,7 +27,7 @@ requirements:
 
 test:
   commands:
-    - "py.test --traceconfig | grep pytest-bandit-{{version}}"
+    - "py.test --traceconfig | grep pytest-bandit-{{ version }}"
     - pip check
   requires:
     - pip
