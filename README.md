@@ -5,9 +5,13 @@ Home: https://github.com/Wanderu/pytest-bandit
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-bandit-feedstock/blob/master/LICENSE.txt)
 
 Summary: A bandit plugin for pytest
+
+Development: https://github.com/Wanderu/pytest-bandit
+
+Documentation: https://github.com/Wanderu/pytest-bandit
 
 This pytest plugin was generated with Cookiecutter along with @hackebrot's cookiecutter-pytest-plugin template.
 
